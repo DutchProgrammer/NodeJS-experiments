@@ -1,0 +1,30 @@
+* {
+	margin:0;
+	padding:0;
+}
+.wrapper {
+	margin:0 auto;
+	width: 800px;
+}
+.epicBox {
+	position:relative;
+	width: 800px;
+	height:500px;
+	border:1px solid #000;
+	background-color: #ccc;
+}
+
+.circle {
+	background-image:url('../img/mouse.png');
+	height: 151px;
+	position: absolute;
+	width: 101px;
+	left: 50px;
+	top:20px;
+}
+.circle:hover {
+	cursor:move;
+}
+.ui-draggable-dragging {
+	#background-color: #0d0;
+}

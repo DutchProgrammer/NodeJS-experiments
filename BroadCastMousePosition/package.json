@@ -1,0 +1,23 @@
+{
+  "name": "DuplicateMouseEvents",
+  "version": "0.0.1",
+  "description": "Duplicate mouse event over all clients that are connected",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DutchProgrammer/NodeJS-experiments.git"
+  },
+  "keywords": [
+    "Duplicate",
+    "mouse",
+    "events"
+  ],
+  "author": "Danny van der Knaap",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/DutchProgrammer/NodeJS-experiments/issues"
+  }
+}
