@@ -10,7 +10,7 @@ In this repository you get all kind of fun experiments with NodeJS
 
 **BroadCastMousePosition**
 
-In this folder you will find an NodeJS experiment to broadcast an mouse position to all the clients.
+In this folder you will find an NodeJS experiment to broadcast your mouse position, mouse click and scroll to all the other clients.
 
 
 **How to start:**
