@@ -1,10 +1,14 @@
-var express 	= require('express'),
-	app 		= express(),
-	server 		= require('http').createServer(app),
-	io   		= require('socket.io').listen(server),
-	fs			= require('fs'),
-	serverPort 	= 9002,
-	mayMove		= true
+var express 			= require('express'),
+	app 				= express(),
+	server 				= require('http').createServer(app),
+	io   				= require('socket.io').listen(server),
+	fs					= require('fs'),
+	serverPort 			= 9002,
+	mayMove				= true,
+	lastMousePosition 	= {},
+	mayScroll			= true,
+	lastScrollPosition 	= {}
+
 ;
 
 server.listen(serverPort);
@@ -55,7 +59,7 @@ app.get('*', function (req, res) {
 
 io.sockets.on('connection', function (socket) {
 
-	socket.emit('mayMove', mayMove);
+	socket.emit('mayMove', mayMove, lastMousePosition);
 
 	socket.on('changeMayMove', function(data) {
 		mayMove = data;
@@ -63,7 +67,27 @@ io.sockets.on('connection', function (socket) {
 	});
 
 	socket.on('castMove', function(position) {
+		lastMousePosition = position;
 		io.sockets.emit('castMove', position);
+	});
+
+	socket.on('castClick', function(mouseClass) {
+		io.sockets.emit('castClick', mouseClass);
+	});
+
+	socket.on('undoCastClick', function(mouseClass) {
+		io.sockets.emit('undoCastClick', mouseClass);
+	});
+
+	socket.emit('mayScroll', mayScroll, lastScrollPosition);
+	socket.on('changeMayScroll', function(data) {
+		mayScroll = data;
+		io.sockets.emit('mayScroll', mayScroll);
+	});
+
+	socket.on('castScroll', function(position) {
+		lastScrollPosition = position;
+		io.sockets.emit('castScroll', position);
 	});
 
 	socket.on('disconnect', function (data) {

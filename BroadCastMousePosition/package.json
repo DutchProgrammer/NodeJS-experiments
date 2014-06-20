@@ -1,6 +1,6 @@
 {
   "name": "DuplicateMouseEvents",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Duplicate mouse event over all clients that are connected",
   "main": "main.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/DutchProgrammer/NodeJS-experiments/issues"
-  }
+  },
+  "dependencies": {
+    "express": "~4.4.3",
+    "socket.io": "~1.0.6"
+  },
+  "devDependencies": {}
 }
