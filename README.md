@@ -16,7 +16,7 @@ In this folder you will find an NodeJS experiment to broadcast an mouse position
 **How to start:**
 
   All experiments can be start with the main.js
-  * sudo nodejs main.js
+  * `sudo nodejs main.js`
   
 **Problems and fixes:**
 
