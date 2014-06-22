@@ -1,0 +1,42 @@
+<div class="panel panel-default">
+
+	<div class="panel-heading">
+		<h1 class="panel-title">My account</h1>
+	</div>
+	<div class="panel-body">
+		<form name="myAccountForm" ng-submit="submitForm(myAccountForm)" novalidate>
+    		<div class="alert" ng-class="{ 'alert-danger' : errorType === 'error', 'alert-info' : errorType === 'validation', 'alert-success' : errorType === 'success' }" ng-if="errorMessage">{{errorMessage}}</div>
+
+			<div class="form-group" ng-class="{ 'has-error' : myAccountForm.name.$invalid && !myAccountForm.name.$pristine }">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" class="form-control" ng-model="user.name" placeholder="Enter name" required autofocus>
+				<p ng-show="myAccountForm.name.$invalid && !myAccountForm.name.$pristine" class="help-block">Enter a valid name.</p>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error' : myAccountForm.email.$invalid && !myAccountForm.email.$pristine }">
+				<label for="email">Email address</label>
+				<input type="email" name="email" id="email" class="form-control" ng-model="user.email" placeholder="Enter email" required autofocus>
+				<p ng-show="myAccountForm.email.$invalid && !myAccountForm.email.$pristine" class="help-block">Enter a valid email.</p>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error' : myAccountForm.password.$invalid && !myAccountForm.password.$pristine }">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" class="form-control" ng-model="user.password" placeholder="Password" ng-minlength="4" ng-maxlength="10">
+				<p ng-show="myAccountForm.password.$invalid && !myAccountForm.password.$pristine" class="help-block">Your password is required.</p>
+				<p ng-show="myAccountForm.password.$error.minlength" class="help-block">password is too short can have an minimal of 4.</p>
+				<p ng-show="myAccountForm.password.$error.maxlength" class="help-block">password is too long can have an max of 10.</p>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error' : myAccountForm.confirmPassword.$invalid && !myAccountForm.confirmPassword.$pristine }">
+				<label for="confirmPassword">Confirm password</label>
+				<input type="password" name="confirmPassword" id="confirmPassword" class="form-control" ng-model="user.confirmPassword" placeholder="Confirm password" ng-minlength="4" ng-maxlength="10">
+				<p ng-show="myAccountForm.confirmPassword.$invalid && !myAccountForm.confirmPassword.$pristine" class="help-block">Your confirm password is required.</p>
+				<p ng-show="myAccountForm.confirmPassword.$error.minlength" class="help-block">Confirm password is too short can have an minimal of 4.</p>
+				<p ng-show="myAccountForm.confirmconfirmPassword.$error.maxlength" class="help-block">Confirm password is too long can have an max of 10.</p>
+			</div>
+			<div class="form-group">
+				<label for="myRole">My role</label>
+				<p ng-if="myRole === 'admin'">You are an admin</p>
+				<p ng-if="myRole === 'member'">You are an member</p>
+			</div>
+			<button type="submit" class="btn btn-lg btn-primary btn-block" id="submit" ng-disabled="myAccountForm.$invalid">Save</button>
+		</form>
+	</div>
+</div>

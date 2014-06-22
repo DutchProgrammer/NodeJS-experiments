@@ -1,0 +1,29 @@
+{
+  "name": "SmallLoginSystem",
+  "version": "1.0.0",
+  "description": "Login and register system with MySQL",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DutchProgrammer/NodeJS-experiments"
+  },
+  "keywords": [
+    "Login",
+    "system",
+    "MySQL"
+  ],
+  "author": "Danny van der Knaap",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/DutchProgrammer/NodeJS-experiments/issues"
+  },
+  "dependencies": {
+    "bower": "~1.3.5",
+    "mysql": "~2.3.2",
+    "nodemailer": "~0.7.0"
+  },
+  "devDependencies": {}
+}

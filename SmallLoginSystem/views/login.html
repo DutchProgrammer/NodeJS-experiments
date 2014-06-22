@@ -1,0 +1,27 @@
+<div class="panel panel-default">
+
+	<div class="panel-heading">
+		<h1 class="panel-title">Login</h1>
+		<p>Fill in your email address and password to login</p>
+	</div>
+	<div class="panel-body">
+		<form name="loginForm" ng-submit="submitForm(loginForm, valid)" novalidate>
+    		<div class="alert" ng-class="{ 'alert-danger' : errorType === 'error', 'alert-info' : errorType === 'validation', 'alert-success' : errorType === 'success' }" ng-if="errorMessage">{{errorMessage}}</div>
+
+			<div class="form-group" ng-class="{ 'has-error' : loginForm.email.$invalid && !loginForm.email.$pristine }">
+				<label for="email">Email address</label>
+				<input type="email" name="email" id="email" class="form-control" ng-model="user.email" placeholder="Enter email" required autofocus>
+				<p ng-show="loginForm.email.$invalid && !loginForm.email.$pristine" class="help-block">Enter a valid email.</p>
+			</div>
+			<div class="form-group" ng-class="{ 'has-error' : loginForm.password.$invalid && !loginForm.password.$pristine }">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" class="form-control" ng-model="user.password" placeholder="Password" required ng-minlength="4" ng-maxlength="10">
+				<p ng-show="loginForm.password.$invalid && !loginForm.password.$pristine" class="help-block">Your password is required.</p>
+				<p ng-show="loginForm.password.$error.minlength" class="help-block">password is too short can have an minimal of 4.</p>
+				<p ng-show="loginForm.password.$error.maxlength" class="help-block">password is too long can have an max of 10.</p>
+			</div>
+			<button type="submit" class="btn btn-lg btn-primary btn-block" id="submit" ng-disabled="loginForm.$invalid">Login</button>
+		</form>
+
+	</div>
+</div>
