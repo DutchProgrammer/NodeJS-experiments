@@ -18,8 +18,8 @@ var express    = require('express'),
 	sendMail   = nodemailer.createTransport('SMTP',{
 	    service: 'Gmail',
 	    auth: {
-	        user: 'dutchprogrammer@gmail.com',
-	        pass: 'dann6715'
+	        user: 'username@gmail.com',
+	        pass: 'password'
 	    }
 	}).sendMail,
 	emailSettings = {
