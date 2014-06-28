@@ -2,7 +2,7 @@
   "name": "SmallLoginSystem",
   "version": "1.0.0",
   "description": "Login and register system with MySQL",
-  "main": "main.js",
+  "main": "smallLoginSystem.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

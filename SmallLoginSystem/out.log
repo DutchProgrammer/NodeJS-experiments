@@ -1,0 +1,252 @@
+server is running on 9003
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+{ '0': 'ping timeout' } 'disconnected'
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+connected
+{ '0': 'transport close' } 'disconnected'
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+connected
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+server is running on 9003
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+data:  { name: 'Joshua',
+  email: 'joshua@wodanbrothers.com',
+  password: 'test' }
+undefined
+mailError { [AuthError: Invalid login - 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 ey16sm30501457wid.14 - gsmtp]
+  name: 'AuthError',
+  data: '535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 ey16sm30501457wid.14 - gsmtp',
+  stage: 'auth' }
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'da6715' }
+[] 'selectResults'
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'test' }
+[] 'selectResults'
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'test' }
+[] 'selectResults'
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+requestChangeAccount { id: 1,
+  name: 'Joshua van der Knaap',
+  email: 'danny@kaboemprogrammeurs.nl' }
+{ id: 1,
+  name: 'Joshua van der Knaap',
+  email: 'danny@kaboemprogrammeurs.nl' } 'data'
+{ name: 'Joshua van der Knaap',
+  email: 'danny@kaboemprogrammeurs.nl' } 'updateData'
+data:  { id: 1,
+  name: 'Joshua van der Knaap',
+  email: 'danny@kaboemprogrammeurs.nl' }
+{ '0': 'ping timeout' } 'disconnected'
+connected
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ '0': 'ping timeout' } 'disconnected'
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+connected
+{ '0': 'ping timeout' } 'disconnected'
+{ '0': 'transport close' } 'disconnected'
+server is running on 9003
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+server is running on 9003
+connected
+server is running on 9003
+connected
+server is running on 9003
+connected
+server is running on 9003
+connected
+server is running on 9003
+connected
+server is running on 9003
+connected
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+connected
+{ '0': 'ping timeout' } 'disconnected'
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+server is running on 9003
+connected
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/robots.txt' } 'not found '
+server is running on 9003
+connected
+connected
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+data:  { email: 'danny@kaboemprogrammeurs.nl', password: 'dann6715' }
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'transport close' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'transport close' } 'disconnected'
+server is running on 9003
+connected
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'ping timeout' } 'disconnected'
+connected
+{ '0': 'transport close' } 'disconnected'
+{ '0': 'transport close' } 'disconnected'
+server is running on 9003
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ '0': 'ping timeout' } 'disconnected'
+server is running on 9003
+connected
+{ '0': 'ping timeout' } 'disconnected'
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+server is running on 9003
+connected
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
+{ [Error: ENOENT, open '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico']
+  errno: 34,
+  code: 'ENOENT',
+  path: '/home/hefner/domains/dutchprogrammer/public_html/NodeJs-experiments/SmallLoginSystem/favicon.ico' } 'not found '
