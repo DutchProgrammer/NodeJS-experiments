@@ -8,7 +8,8 @@ BroadCast Mouse Position
 In this folder you will find an NodeJS experiment to broadcast your mouse position, mouse click and scroll to all the other clients.
 [More](https://github.com/DutchProgrammer/NodeJS-experiments/tree/master/BroadCastMousePosition)
 
-[Broadcast Mouse position Demo (open in multiple screens!)](http://dutchprogrammer.nl:9002/)
+To see the effect open this link in multiple browser windows
+[Broadcast Mouse position Demo)](http://dutchprogrammer.nl:9002/)
 
 Small LoginSystem
 ----
