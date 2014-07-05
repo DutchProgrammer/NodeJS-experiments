@@ -11,6 +11,6 @@ In this folder you will find an NodeJS experiment to broadcast your mouse positi
 
 Small LoginSystem
 ----
-a small login system in NodeJS.
+A small login system in NodeJS.
 
-[Small LoginSystem Demo](http://dutchprogrammer.nl:9002/)
+[Small LoginSystem Demo](http://dutchprogrammer.nl:9003/)
