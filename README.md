@@ -12,6 +12,6 @@ In this folder you will find an NodeJS experiment to broadcast your mouse positi
 Small LoginSystem
 ----
 A small login system in NodeJS with mysql and with permissions.
-Users can register and login.
+Users can register and login.[More](https://github.com/DutchProgrammer/NodeJS-experiments/tree/master/SmallLoginSystem)
 
 [Small LoginSystem Demo](http://dutchprogrammer.nl:9003/)
