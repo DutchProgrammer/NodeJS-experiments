@@ -9,7 +9,7 @@ In this folder you will find an NodeJS experiment to broadcast your mouse positi
 [More](https://github.com/DutchProgrammer/NodeJS-experiments/tree/master/BroadCastMousePosition)
 
 To see the effect open this link in multiple browser windows
-[Broadcast Mouse position Demo)](http://dutchprogrammer.nl:9002/)
+[Broadcast Mouse position Demo](http://dutchprogrammer.nl:9002/)
 
 Small LoginSystem
 ----
