@@ -22,6 +22,13 @@ How to start
 ```sh
 sudo nodejs broadCastMousePosition.js
 ```
+  How to start this chat as an service:
+----
+
+  
+ ```sh
+ sudo forever start -l forever.log -o out.log -e err.log -a broadCastMousePosition.js
+  ```
   
 Problems and fixes
 ----
