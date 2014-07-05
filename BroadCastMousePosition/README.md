@@ -18,9 +18,9 @@ Demo
 
 How to start
 ----
-  All experiments can be start with the main.js
+  All experiments can be start with the broadCastMousePosition.js
 ```sh
-sudo nodejs main.js
+sudo nodejs broadCastMousePosition.js
 ```
   
 Problems and fixes
