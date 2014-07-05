@@ -1,4 +1,4 @@
-NodeJS-experiments
+NodeJS experiments
 =========
 In this repository you get all kind of fun experiments with NodeJS
 
