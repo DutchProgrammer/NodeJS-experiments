@@ -9,7 +9,7 @@ var express    = require('express'),
 	connection = mysql.createConnection({
 		host     : 'localhost',
 		user     : 'nodejs',
-		password : '$sD5Ax2D#2!',
+		password : 'password',
 		database : 'NodeJSLoginSystem'
 	}),
 	crypto     = require('crypto'),
