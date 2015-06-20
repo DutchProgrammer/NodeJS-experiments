@@ -1,5 +1,5 @@
 {
-  "name": "SmallLoginSystem",
+  "name": "smallloginsystem",
   "version": "1.0.0",
   "description": "Login and register system with MySQL",
   "main": "smallLoginSystem.js",
@@ -20,6 +20,8 @@
   },
   "keywords": [
     "login",
+    "signup",
+    "signin",
     "system",
     "mysql",
     "nodejs",
